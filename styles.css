@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +6,14 @@
     font-family: 'Arial', sans-serif;
 }
 
-
-
-/* Header and Navigation */
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: transparent; /* Initially Transparent */
+    background: transparent; 
     z-index: 100;
     padding: 20px 0;
-    transition: background-color 0.3s ease; /* Smooth transition for background */
+    transition: background-color 0.3s ease; 
 }
 
 nav {
@@ -24,13 +21,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    transition: background-color 0.3s ease;
 }
 
 
 
 nav .logo {
-    color: rgba(255, 255, 255, 1); /* Dark Grey */
+    color: rgba(255, 255, 255, 1); 
     font-size: 24px;
     font-weight: bold;
 }
@@ -46,17 +43,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 1); /* Dark Grey */
+    color: rgba(255, 255, 255, 1);
     font-size: 16px;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: black; /* Soft Pink */
+    color: black; 
 }
 
-/* Hamburger Icon */
 .hamburger {
     display: none;
     flex-direction: column;
@@ -73,7 +69,6 @@ nav ul li a:hover {
     background-color: rgb(117, 96, 1);
 }
 
-/* Parallax Section */
 .parallax {
     height: 100vh;
     background-attachment: fixed;
@@ -94,12 +89,12 @@ nav ul li a:hover {
 .parallax .text h2 {
     font-size: 48px;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.8); /* Dark Grey */
+    color: rgba(255, 255, 255, 0.8); 
 }
 
 .parallax .text p {
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.8); /* Dark Grey */
+    color: rgba(255, 255, 255, 0.8); 
     margin-top: 20px;
 }
 
@@ -107,8 +102,8 @@ nav ul li a:hover {
     display: inline-block;
     margin-top: 30px;
     padding: 10px 30px;
-    background-color: green; /* Soft Pink */
-    color: whitesmoke; /* Light Beige */
+    background-color: green; 
+    color: whitesmoke; 
     text-decoration: none;
     font-weight: bold;
     border-radius: 30px;
@@ -116,26 +111,25 @@ nav ul li a:hover {
 }
 
 .parallax .cta-button:hover {
-    background-color: brown; /* Soft Light Blue */
+    background-color: brown; 
 }
 
-/* Divider between Sections with Text */
+
 .divider {
     width: 100%;
-    height: 100px; /* Adjust height to fit text */
-    background-color: #FBFAF5; /* Soft Pink Divider */
+    height: 100px;
+    background-color: #FBFAF5;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .divider-text h2 {
-    color: green; /* Dark Grey Text */
+    color: green;
     font-size: 20px;
     font-weight: bold;
 }
 
-/* Section Specific Backgrounds */
 #home {
     background-image: url('IMG/SG2018_SCG_7830-1.jpg');
 }
@@ -164,7 +158,7 @@ nav ul li a:hover {
     background-image: url('IMG/n.png');
 }
 
-/* Scroll Effects */
+
 .parallax {
     background-attachment: fixed;
     background-position: center;
@@ -174,11 +168,11 @@ nav ul li a:hover {
 }
 
 nav {
-    background-color: transparent; /* Transparent at first */
+    background-color: transparent; 
 }
 
 header.scrolled {
-    background-color: rgba(0, 150, 0, 0.4); /* Solid White when scrolled */
+    background-color: rgba(0, 150, 0, 0.4); 
 }
 
 .parallax .text h1, .parallax .text h2 {
@@ -189,7 +183,6 @@ header.scrolled {
     animation: fadeIn 2s ease-in-out;
 }
 
-/* Keyframes for Fade-in Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -199,7 +192,6 @@ header.scrolled {
     }
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
@@ -233,8 +225,6 @@ header.scrolled {
     }
 }
 
-
-/* Glowing Effect for the button */
 .cta-button {
     padding: 15px 30px;
     background-color: rgba(0, 0, 0, 0.7);
@@ -245,22 +235,21 @@ header.scrolled {
     transition: all 0.3s ease;
 }
 
-/* Glowing effect on hover */
 .cta-button:hover {
     background-color: rgba(0, 0, 0, 0.9);
-    box-shadow: 0 0 15px 5px green; /* White glow */
-    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 0 15px 5px green;
+    transform: scale(1.05);
 }
 
 footer {
-    background-color: rgba(0, 150, 0, 0.4); /* Dark background for the footer */
-    color: white; /* White text */
-    text-align: center; /* Center the text */
-    padding: 10px 0; /* Padding to give some space around the text */
+    background-color: rgba(0, 150, 0, 0.4);
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
     position: relative;
     bottom: 0;
-    width: 100%; /* Ensure footer spans across the entire width */
-    font-size: 14px; /* Adjust font size */
+    width: 100%; 
+    font-size: 14px; 
 }
 
 footer p {
